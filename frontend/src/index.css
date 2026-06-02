@@ -1,0 +1,9 @@
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
