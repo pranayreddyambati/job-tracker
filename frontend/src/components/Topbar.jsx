@@ -91,6 +91,8 @@ function Topbar() {
             setDarkMode(!darkMode)
           }
           className="
+            dark-mode-toggle
+
             bg-white dark:bg-slate-900
             text-slate-900 dark:text-white
             border border-slate-200 dark:border-slate-800
@@ -119,6 +121,8 @@ function Topbar() {
               )
             }
             className="
+              activity-button
+              
               flex items-center gap-2
               bg-white dark:bg-slate-900
               text-slate-900 dark:text-white
@@ -180,6 +184,7 @@ function Topbar() {
 
             <p
               className="
+                profile-email
                 text-xs
                 text-slate-500
                 dark:text-slate-400
@@ -195,6 +200,7 @@ function Topbar() {
         <button
           onClick={logout}
           className="
+            logout-button
             flex items-center gap-2
             px-4 py-3
             rounded-xl

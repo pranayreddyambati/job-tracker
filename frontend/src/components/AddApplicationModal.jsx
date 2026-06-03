@@ -94,6 +94,8 @@ function AddApplicationModal({
                 setCompany(e.target.value)
               }
               className="
+                input-company
+
                 w-full
                 px-4 py-3
                 rounded-xl
@@ -117,6 +119,8 @@ function AddApplicationModal({
                 setRole(e.target.value)
               }
               className="
+                input-role
+
                 w-full
                 px-4 py-3
                 rounded-xl
@@ -140,6 +144,8 @@ function AddApplicationModal({
                 setLocation(e.target.value)
               }
               className="
+                input-location
+
                 w-full
                 px-4 py-3
                 rounded-xl
@@ -164,6 +170,8 @@ function AddApplicationModal({
                 setSalary(e.target.value)
               }
               className="
+                input-salary
+
                 w-full
                 px-4 py-3
                 rounded-xl
@@ -181,6 +189,8 @@ function AddApplicationModal({
           <button
             onClick={onClose}
             className="
+              cancel-modal
+              
               px-5 py-3 rounded-xl
               bg-slate-200
               dark:bg-slate-800
@@ -192,6 +202,8 @@ function AddApplicationModal({
           <button
             onClick={saveApplication}
             className="
+              submit-modal
+
               px-5 py-3 rounded-xl
               bg-gradient-to-r
               from-blue-600

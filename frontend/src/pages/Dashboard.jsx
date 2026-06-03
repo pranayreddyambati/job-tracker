@@ -66,6 +66,8 @@ function Dashboard() {
                         <button
                             onClick={() => setShowModal(true)}
                             className="
+                                add-application
+                                
                                 flex items-center gap-2
                                 bg-gradient-to-r
                                 from-blue-600

@@ -49,6 +49,8 @@ function StatsCards({ analytics }) {
           <div
             key={item.title}
             className="
+              dashboard-card
+
               bg-white dark:bg-slate-900
               border border-slate-200 dark:border-slate-800
               rounded-2xl p-6

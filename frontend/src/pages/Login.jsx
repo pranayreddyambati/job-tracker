@@ -56,6 +56,7 @@ function Login() {
     >
       <div
         className="
+          login-card
           w-full
           max-w-md
           bg-white
@@ -152,6 +153,7 @@ function Login() {
                 setEmail(e.target.value)
               }
               className="
+                email-input
                 w-full
                 pl-10
                 pr-4
@@ -209,6 +211,7 @@ function Login() {
                 )
               }
               className="
+                password-input
                 w-full
                 pl-10
                 pr-4
@@ -235,6 +238,7 @@ function Login() {
           onClick={login}
           disabled={loading}
           className="
+            login-button
             w-full
             py-3
             rounded-xl
@@ -266,6 +270,7 @@ function Login() {
           <Link
             to="/signup"
             className="
+              signup-link
               text-cyan-500
               hover:underline
             "

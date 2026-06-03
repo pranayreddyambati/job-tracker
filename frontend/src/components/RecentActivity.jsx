@@ -170,6 +170,8 @@ function RecentActivity() {
               clearActivities
             }
             className="
+              clear-activity-button
+
               text-xs
               px-3 py-1
               rounded-lg
@@ -196,6 +198,8 @@ function RecentActivity() {
             <div
               key={activity._id}
               className="
+                activity-item
+
                 p-4
                 border-b
                 border-slate-100

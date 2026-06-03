@@ -30,7 +30,7 @@ function AnalyticsStats({
 
   return (
     <div className="grid md:grid-cols-4 gap-6 mb-8">
-      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
+      <div className="analytics-stats-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
         <p className="text-slate-500">
           Total Applications
         </p>
@@ -42,7 +42,7 @@ function AnalyticsStats({
         </h2>
       </div>
 
-      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
+      <div className="analytics-stats-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
         <p className="text-slate-500">
           Offer Rate
         </p>
@@ -52,7 +52,7 @@ function AnalyticsStats({
         </h2>
       </div>
 
-      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
+      <div className="analytics-stats-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
         <p className="text-slate-500">
           Interview Rate
         </p>
@@ -62,7 +62,7 @@ function AnalyticsStats({
         </h2>
       </div>
 
-      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
+      <div className="analytics-stats-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6">
         <p className="text-slate-500">
           Acceptance Rate
         </p>

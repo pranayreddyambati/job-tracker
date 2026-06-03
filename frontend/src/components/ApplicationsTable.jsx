@@ -76,6 +76,8 @@ function ApplicationsTable({
               <tr
                 key={app._id}
                 className="
+                  application-row
+
                   border-t border-slate-200
                   dark:border-slate-800
                   hover:bg-slate-50
@@ -117,6 +119,8 @@ function ApplicationsTable({
                       )
                     }
                     className={`
+                      application-status-dropdown
+
                       px-3 py-2
                       rounded-lg
                       border
@@ -178,6 +182,8 @@ function ApplicationsTable({
                         )
                       }
                       className="
+                        delete-application-button
+
                         p-2
                         rounded-lg
                         bg-red-500

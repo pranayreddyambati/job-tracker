@@ -17,17 +17,20 @@ function Sidebar() {
       name: "Dashboard",
       icon: LayoutDashboard,
       path: "/dashboard",
+      className: "dashboard-nav-link",
     },
     {
       name: "Applications",
       icon: Briefcase,
       path: "/applications",
+      className: "application-nav-link",
     },
 
     {
       name: "Analytics",
       icon: BarChart3,
       path: "/analytics",
+      className: "analytics-nav-link",
     },
   ];
 
@@ -73,6 +76,8 @@ function Sidebar() {
               key={item.name}
               to={item.path}
               className={`
+                ${item.className}
+
                 flex items-center gap-3
                 px-4 py-3
                 mb-2

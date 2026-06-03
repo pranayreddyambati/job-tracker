@@ -83,7 +83,7 @@ function AnalyticsCharts({ analytics }) {
           Application Status
         </h2>
 
-        <div className="h-72">
+        <div className="status-chart h-72">
           <ResponsiveContainer>
             <PieChart>
               <Pie
@@ -152,7 +152,7 @@ function AnalyticsCharts({ analytics }) {
           Application Trend
         </h2>
 
-        <div className="h-72">
+        <div className="trend-chart h-72">
           <ResponsiveContainer>
             <LineChart
               data={trendData}

@@ -48,7 +48,7 @@ function RecentApplications({ applications }) {
         </div>
       ) : (
         <div className="overflow-x-auto">
-          <table className="w-full">
+          <table className="recent-applications-table w-full">
             <thead className="bg-slate-100 dark:bg-slate-800/50">
               <tr>
                 <th className="text-left px-6 py-4 text-slate-500 dark:text-slate-400 font-medium">
@@ -70,6 +70,8 @@ function RecentApplications({ applications }) {
                 <tr
                   key={app._id}
                   className="
+                    recent-applications-row
+
                     border-t border-slate-200 dark:border-slate-800
                     hover:bg-slate-100 dark:hover:bg-slate-800/40
                     transition
